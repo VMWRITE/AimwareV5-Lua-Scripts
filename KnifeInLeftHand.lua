@@ -1,4 +1,5 @@
-	local function is_holding_knfie(weapon)
+	-- CREATED BY Ozaron#5101
+        local function is_holding_knfie(weapon)
 		if (weapon == nil) then
 			return false
 		end
