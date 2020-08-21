@@ -1,3 +1,4 @@
+-- CREATED BY Ozaron#5101
 callbacks.Register( "DispatchUserMessage", "AutoRepeatChat ", function( msg )    
     if msg:GetID() == 6 then
         local index = msg:GetInt( 1 );
