@@ -1,3 +1,4 @@
+-- CREATED BY Ozaron#5101
 callbacks.Register("SendStringCmd", function(cmd) 
 	if string.find(cmd:Get(),"say ") == 1 then 
 		preby1 = cmd:Get():gsub("say ","") 
