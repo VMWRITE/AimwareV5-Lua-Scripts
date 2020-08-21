@@ -1,4 +1,5 @@
-local function fileAppend( filename, contents )
+-- CREATED BY Ozaron#5101
+local function fileAppend( filename, contents ) -- Garry Newman
 
 	local f = file.Open( filename, "ab", "DATA" )
 	if not f then return end
