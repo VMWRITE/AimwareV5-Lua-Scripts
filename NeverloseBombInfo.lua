@@ -32,8 +32,7 @@ local distance_a, distance_b = vector.Distance({site_x, site_y, site_z}, {avec.x
 
 end
 
-function 
-	(Event)
+function EventHook(Event)
 
 	if Event:GetName() == "bomb_beginplant" then 
 		
